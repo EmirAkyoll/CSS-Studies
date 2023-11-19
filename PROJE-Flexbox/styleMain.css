@@ -1,0 +1,38 @@
+
+/*--------------- General Definition ---------------*/
+@import url(general-definition.css);
+
+
+/*------------------- HEADER -------------------*/
+@import url(header.css);
+
+
+/*-------------- ABOUT-REGİSTRATİON --------------*/
+@import url(about-registration.css);
+
+
+/*------------- WORKSHOP & EVENTS -------------*/
+@import url(workshops-event.css);
+
+
+/*------------- STUDİO MEMBERSHİP -------------*/
+@import url(studio-membership.css);
+
+
+/*------------- ART FOR SALE -------------*/
+@import url(art-for-sale.css);
+
+
+/*------------- ON FOOT -------------*/
+@import url(on-footer.css);
+
+
+footer{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--about-color);
+    color: var(--gray);
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}

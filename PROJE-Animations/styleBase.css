@@ -1,0 +1,420 @@
+
+@keyframes kayanisik {
+    0%{background-position:0% 50%}
+    50%{background-position:140% 50%}
+    100%{background-position:90% 50%}
+}
+@-webkit-keyframes kayanisik {
+    0%{background-position:0% 50%}
+    50%{background-position:140% 50%}
+    100%{background-position:90% 50%}
+}
+
+/*ooooooooooooooooooooooooooooooooo*/
+
+@keyframes footerAnimation {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 140% 50%;}
+	100% {background-position: 0% 50%;}
+}
+@-webkit-keyframes footerAnimation {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 140% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffefc;
+    text-align: justify;
+}
+
+div>p{
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+ul{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.conteiner{
+    width: 87%;
+    margin-left: 100px;
+    padding: 0;
+
+}
+
+
+/* -- -- -- -- -- -- -- -- NAVBAR -- -- -- -- -- -- -- -- */
+
+.navbar{
+    display: flex;
+    width: 1475px;
+    height: 100px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #106938;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     color: transparent;
+}
+.nav{ margin-left: 174px; }
+   
+.nav li a{
+    color: rgb(68, 64, 64);
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    margin: 25px 55px 10px 20px;
+    font-family: 'Georama','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    transition: text-shadow 0.4s;
+    color: transparent;
+    transition: color 0.25s linear 0.05s, background-color 0.5s;
+}
+.nav li a:not(:hover){ transition: color 0.4s; }
+
+.image{
+    margin-left: 10px;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.baslik{
+    margin: 36px 43px 36px 47px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Zilla Slab', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    background-color: rgb(12, 12, 12);
+    background-image: url('isik.jpg');
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    animation-name: kayanisik;
+    -webkit-animation: kayanisik ease infinite 1s;
+    -moz-animation: kayanisik ease infinite 1s;
+    animation: kayanisik ease infinite 1s;
+    animation-duration: 5s;
+}
+
+
+/* -- -- -- -- -- -- -- -- CARDS -- -- -- -- -- -- -- -- */
+
+.cards{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: #fafaea;
+    width: 300px;
+    height: 370px;
+    float: left;
+    margin: 20px 10px 10px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.card-ilk{
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color:#fafaea;
+    width: 300px;
+    height: 370px;
+    float: left;
+    font-size: 18px;
+    margin: 20px 10px 30px 18px;
+    border-radius: 5px;
+}
+.card:hover,.card-ilk:hover{
+    box-shadow: 1px 1px 10px 0.1px rgb(241, 223, 196);;
+    transition: background-color 0.5s linear, box-shadow 0.5s linear, font-size 0.4s linear;
+}
+.card:not(:hover),.card:first-child{ transition: background-color 0.8s, font-size 0.3s; }
+   
+.card :nth-child(3), .card:first-child :nth-child(3){
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.card :nth-child(1), .card-ilk :nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    transition: font-size 0.5s;
+ }
+.card:hover :nth-child(1), .card-ilk:hover :nth-child(1){
+   font-size: 22px;
+   transition: font-size 0.5s;
+}
+.card:not(:hover) :nth-child(1), .card-ilk:not(:hover) :nth-child(1){
+    font-size: 18px;
+    transition: font-size 0.4s;
+ }
+
+
+/* -- -- -- -- -- -- -- -- PARAGRAPHS -- -- -- -- -- -- -- -- */
+
+.prgrf, .prgrf:last-child{
+    background-color: #fffefc;
+    font-size: 25px;
+}
+.prgrf .paragraf,.prgrf .paragraf2{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    background-color: #fffefc;
+    margin-bottom: 55px;
+}
+.paragraf:last-child{ margin-bottom: 70px; } 
+
+.prgrf .paragraf2{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+.whatsapp{
+    right: 19px;
+    bottom: 20px;
+    z-index: 1;
+    position: fixed;
+ }
+ .whatsapp:hover{
+    width: 80px;
+    height: 87px;
+}
+
+
+/* -- -- -- -- -- -- -- -- VİZYON & MİSYON -- -- -- -- -- -- -- -- */
+
+h3{
+    font-size: 30px;
+    font-family: 'Zilla Slab',sans-serif;
+    padding: 0;
+    margin: 20px;
+}
+.vizyon, .misyon{
+    width: 450px;
+    text-align: center;
+}
+
+.misyon{
+    width: 450px;
+    float: left;
+    margin-right: 67px;
+}
+.vizyon{
+    float: right;
+    margin-left: 30px;
+}
+.prf-vizyon, .prf-misyon{
+    font-family: 'Oxygen',sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 25px;
+}
+.vizyon-misyon{
+    width: 1000px;
+    margin-left: auto   ;
+    margin-right: auto;
+    display: flex;
+    margin-left: 160px;
+}
+.misyonun-seridi{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(209, 91, 91);
+    border: 1px solid black;
+}
+.vizyonun-seridi{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(209, 91, 91);
+    border: 1px solid black;
+}
+
+
+
+.footer{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    max-height: 72px;
+}
+
+/* -- -- -- -- -- -- -- -- İNSTAGRAM -- -- -- -- -- -- -- -- */
+.instagram{
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    width: 100px;
+}
+.instagram .sosyal-medya{  
+    transform: translate(10px,0px);
+    max-height: 11px;
+    float: left;
+    border-top: 7px solid rgb(20, 51, 88);
+    border-radius: 2px;
+}
+.instagram:hover{
+    transform: translate(0,50px);
+    transition: transform 0.4s;
+    overflow-y: visible;
+}
+.instagram .sosyal-medya:hover{ overflow-y: visible;}
+
+.instagram:not(:hover){
+    overflow-y: hidden;
+    transform: translate(0,120px);
+    transition: transform 0.35s;
+}
+.instagram .sosyal-medya-ustu{
+    background: linear-gradient(70deg, rgb(56, 65, 160) 0% 85%, rgb(238, 177, 127) 95% 100%);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; 
+}
+
+
+/* -- -- -- -- -- -- -- -- TWİTTER -- -- -- -- -- -- -- -- */
+
+.twitter{
+    padding: 0;
+    margin: 0;
+    margin-right: 45px;
+}
+.twitter .sosyal-medya{
+    max-height: 11px;
+    margin-right: 60px;
+    float: left;
+    border-top: 7px solid rgb(20, 51, 88);
+    border-radius: 2px;
+}
+.twitter:hover{
+     transform: translate(0,50px);
+     transition: transform 0.4s;
+     overflow-y: visible;
+ }
+.twitter:not(:hover){
+    overflow-y: hidden;
+    transform: translate(0,120px);
+    transition: transform 0.35s;
+}
+.twitter .sosyal-medya-ustu{
+    transform: translateX(-30.5px);
+    background: linear-gradient(70deg,#00ACEE 0% 85%,#e7e7d8 95% 100%);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; 
+}
+
+
+/* -- -- -- -- -- -- -- -- GİTHUB -- -- -- -- -- -- -- -- */
+
+.github{
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+.github .sosyal-medya{ 
+    transform: translate(-0px,0px);
+    max-height: 11px;
+    margin-right: 30px;
+    float: left;
+    border-top: 7px solid rgb(20, 51, 88);
+    border-radius:2px;
+}
+.github:hover{
+    transform: translate(0,50px);
+    transition: transform 0.4s;
+    overflow-y: visible;
+}
+.github .sosyal-medya:hover{ overflow-y: visible; }
+ 
+.github:not(:hover){
+    overflow-y: hidden;
+    transform: translate(0,120px);
+    transition: transform 0.35s;
+}
+.github .sosyal-medya-ustu{
+    transform: translate(-7px,0px);
+    background-image: linear-gradient(70deg,#000000 0% 85%,#d3d3be 95% 100%);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+}
+
+
+/* -- -- -- -- -- -- -- -- LİNKEDİN -- -- -- -- -- -- -- -- */
+
+.linkedin .sosyal-medya{
+    transform: translate(-0px,0px);
+    max-height: 11px;
+    float: left;
+    border-top: 7px solid rgb(20, 51, 88);
+    border-radius: 2px;
+}
+.linkedin:hover{
+    transform: translate(0,50px);
+    transition: transform 0.4s;
+    overflow-y: visible;
+}
+.linkedin .sosyal-medya:hover{ overflow-y: visible; }
+   
+.linkedin:not(:hover){
+    overflow-y: hidden;
+    transform: translate(0,120px);
+    transition: transform 0.35s;
+}
+.linkedin .sosyal-medya-ustu{
+    background: linear-gradient(70deg,#0077B5 0% 85%,#9e9e90 95% 100%);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+}
+
+.footer .sosyal-medya-ustu{
+    font-family: 'Lobster', sans-serif;
+    font-size: 18px;
+}
+
+.sosyal-medya .sos-image{ width: 75px; }

@@ -1,0 +1,111 @@
+
+/*------------- ON FOOT -------------*/
+
+.on-footer-section{
+
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 120rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.on-foot__image, .on-footer__subscribe{
+
+    width: 100%;
+    height: 50%;
+} 
+
+.on-footer__subscribe{
+        
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--subscribe-color);
+    padding-bottom: 7rem;
+}
+
+.on-footer__subscribe-title, .on-footer_subscribe-text{
+
+    font-size: 2.6rem;
+    color: var(--white);
+}
+
+.on-footer__subscribe-title{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.on-footer__subscribe-content{
+
+    flex-direction: column;
+    align-items: center;
+    height: 32rem;
+    justify-content: space-between;
+}
+
+input{
+
+    width: 32rem;
+    margin-right: 2rem;
+    background-color: var(--studio-membership-color);
+    border: 1px solid var(--white);
+    padding: 1rem;
+    color: var(--gray);
+}
+
+.on-footer_subscribe-text{
+
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 80rem;
+    text-align: center;
+}
+
+.on-footer__hanged-text-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.on-footer__hanged-text-content{
+
+    font-size: 2rem;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40rem;
+    margin-left: 8rem;
+}
+
+.double-quotes{
+
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    width: 16%;
+    height: 20%;
+    border: 1px solid var(--button-hover-color);
+    border-radius: 50%;
+    background-color: var(--button-hover-color);
+}
+
+.on-footer__hanged-text{
+
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 22rem;
+    left: 30rem;
+    background-color: var(--gray);
+    align-items: center;
+    width: 65rem;
+    height: 48rem;
+    justify-content: space-between;
+}
+
+.on-footer__hanged-text-author{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}

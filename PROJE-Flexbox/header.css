@@ -1,0 +1,40 @@
+
+/*------------------- HEADER -------------------*/
+
+.header{
+
+    width: 100%;
+    height: 75.3rem;
+    background: var(--black) url(img/camur-usatasi.jpg) no-repeat center;
+    position: relative;
+}
+
+.header__content{
+
+    text-align: justify;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75rem;
+    height: 25rem;
+    position: absolute;
+    top: 15rem;
+    left: 12rem;
+}
+
+.header__title,
+.header__paragraph{
+    
+    color: var(--white);
+    font-size: 2.6rem;
+}
+
+.header__paragraph,
+.button__content{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header__title{
+
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+}

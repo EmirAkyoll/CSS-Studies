@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Urbanist:wght@583&display=swap');
+
+html{
+    font-size: 7px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 1.6rem 0;
+    font-size:  2rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header{
+    height: 45rem;
+}
+
+header .bg-image{
+    position: absolute;
+    background-image:url(image/calisan.jpeg);
+    height: 55rem;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+header h1{
+    padding: 11rem;
+    padding-bottom: 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 4.2rem;
+    margin: .5rem 0;
+    transition: all 0.25s;
+}
+
+.btn:hover{
+    background-color: #eaeaea;
+    color: #333;
+}
+
+#section-1{
+    background: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+#section-2{
+    padding: 2rem;
+}
+
+#section-2 ul{
+    list-style: none;
+}
+
+#section-2 li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+#section-3{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+#section-4 .box:first-child{
+    background-color: #2690d4;
+}
+
+#section-4 .box{
+    padding: 5rem;
+}
+
+footer{
+    padding: 4rem;
+    background-color: #000;
+}
+
+footer a{
+    color: #2690d4;
+}
+
+@media screen and (min-width:480px) {
+    
+    html{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+    #section-2 li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .box{
+        width: 50%;
+        float: left;
+    }
+
+    html{
+        font-size: 12px;
+    }
+       
+}

@@ -1,0 +1,44 @@
+
+html{ 
+    
+    font-size: 10px; 
+
+    --button-AND-short_line-color: #fbd467;
+    --button-hover-color: #ffa443;
+    --about-color: #272624;
+    --registration-color: #1E1D1B;
+    --studio-membership-color: #272624;
+    --subscribe-color: #1E1D1B;
+    --black: #070707;
+    --white: #fff;
+    --gray: #EEE9E5;
+}
+
+.flex-box{ display: flex; }
+
+.button{
+
+    padding: 0.5rem;
+
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    width: 13rem;
+    height: 4rem;
+    color: var(--black);
+    font-size: 1.5rem;
+    background-color: var(--button-AND-short_line-color);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, font-weight 0.3s;
+}
+
+.button:hover{ background-color: var(--button-hover-color); }
+
+.button:hover .button__content{ font-weight: 600;}
+
+.short-line{
+    background-color: var(--button-AND-short_line-color);
+    width: 10rem;
+    height: 0.25rem;
+}

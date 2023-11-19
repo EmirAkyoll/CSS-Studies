@@ -1,0 +1,59 @@
+
+/*------------- STUDİO MEMBERSHİP -------------*/
+
+.studio-membership-section{
+
+    margin-bottom: 4.2rem;
+    width: 100%;
+    height: 60rem;
+}
+
+.studio-membership__image{
+
+    width: 102rem;
+    height: 60rem;
+    background-color: url(img/benekli-vazo.png);
+}
+
+.studio-membership__content{
+
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: var(--studio-membership-color);
+    max-width: 120rem;
+    height: 60rem;
+    font-size: 1.5rem;
+}
+
+.studio-membership__content--inline{
+
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 2rem;
+    width: 80%;
+    height: 30rem;
+}
+
+.studio-membership__title,
+.studio-membership__text{
+    text-align: justify;
+    color: var(--white);
+}
+
+.studio-membership__title{
+
+    font-size: 3.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.studio-membership__text{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.studio-membership-section .button{ width: 17rem; }

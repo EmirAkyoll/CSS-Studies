@@ -1,0 +1,54 @@
+
+/*------------- WORKSHOP & EVENTS -------------*/
+
+.workshops-events-section{
+
+    width: 100%;
+    height: 60rem;
+}
+
+.workshops-events__content{
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray);
+    max-width: 120rem;
+    height: 60rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.workshop-events__content--inline{
+
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 80%;
+    height: 30rem;
+}
+
+.workshops-events__title{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.workshops-events__text{
+    
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.workshops-events .button{
+    padding: 0.7rem;
+}
+
+.workshops-events__image{
+
+    width: 250rem;
+    height: 60rem;
+    background-image: url(img/comlekci.jpg);
+}
